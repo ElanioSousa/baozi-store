@@ -2,7 +2,7 @@
 
 Trabalho da disciplina Desenvolvimento Web Back-End.
 
-API REST simples para a Baozi Store, uma loja de pão chinês, com cadastro de clientes, produtos e pedidos.
+API REST CRUD para a Baozi Store, uma loja de pão chinês, com cadastro de clientes, produtos e pedidos.
 
 ## Tecnologias
 
@@ -12,7 +12,7 @@ API REST simples para a Baozi Store, uma loja de pão chinês, com cadastro de c
 - MySQL
 - Postman (testes)
 
-## Estrutura (MVC)
+## Estrutura
 
 ```
 src/main/java/com/baozistore/api
@@ -50,8 +50,7 @@ src/main/java/com/baozistore/api
    GRANT ALL PRIVILEGES ON baozi_store.* TO 'baozi'@'localhost';
    FLUSH PRIVILEGES;
    ```
-2. Rode a classe `BaoziStoreApplication` (no STS: botão direito > Run As > Spring Boot App)
-   ou no terminal: `mvn spring-boot:run`.
+2. Rode a classe `BaoziStoreApplication` no eclipse: botão direito > Run As > Spring Boot App
 3. A API fica em `http://localhost:8080`.
 
 Para testar, importe no Postman o arquivo `baozi-store.postman_collection.json`.
